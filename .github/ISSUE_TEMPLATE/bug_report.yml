@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a problem in UniConnect.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include PRNs, phone numbers, passwords, tokens, or other private information."
+  - type: input
+    id: page
+    attributes:
+      label: Page or feature
+      placeholder: "For example: Events or Marketplace"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the problem appeared?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device and browser
+      placeholder: "For example: Android, Chrome"
+    validations:
+      required: false
