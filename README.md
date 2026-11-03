@@ -21,8 +21,6 @@ Please do not include:
 - Passwords, login codes, session cookies, or access tokens
 - Private conversations or screenshots containing personal information
 
-For account-specific or sensitive matters, do not post them here. Use an appropriate private channel provided by your college or UniConnect.
-
 ## How to get a useful answer
 
 For a question, describe what you were trying to do and what happened.
